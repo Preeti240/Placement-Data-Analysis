@@ -1,0 +1,673 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="Cache-control" content="public"/>
+    <meta property="og:url" content="https://sidaartha.github.io/PlacementAnalyzer"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Placement Analyzer"/>
+    <meta property="og:description" content="Personal project display"/>
+    <meta property="og:image" content="https://sidaartha.github.io/PlacementAnalyzer/assets/img/meta_image.png">
+    <meta charset="ISO-8859-1">
+    <title>Placement Analysis</title>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156678272-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-156678272-1');
+    </script>
+
+  </head>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon-blue.ico"/>
+
+  <body>
+
+    <!-- Back to top button -->
+    <a id="button"></a>
+
+    <div class="container mainbody">
+      <div class="row blocker" id="about_section">
+        <a><div class="col-md-12 col-xs-12 major"><span>Analysis Of Placement Data</span></div></a>
+
+        <div class="col-md-12 col-xs-12 minor">
+          <div class="break"></div>
+
+          <div class="catdescr col-md-12">
+            <ul>
+              <li>Detailed placement statistics of 2020</li>
+              <li>Get an overview of recent placements to help you with your upcomming placements season</li>
+            </ul>
+          </div>
+        <!--  <div class="browse col-md-12">
+            <span> <b> Placement Statistics</span> </b>
+          </div> -->
+          <!-- <div class="prow">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="col-md-3 col-sm-6 col-xs-12 pitem pitema pitema_statistics">
+                <div class="option">
+                  <a href="#statistics">
+                    <i class="fa fa-pie-chart" style="font-size: 90px; padding-top: 10px; color: #006494;"></i>
+                    <span class="proname">Placements Statistics</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema pitema_flatmates">
+                <div class="option">
+                  <a href="#flatmates">
+                    <i class="fa fa-home" style="font-size: 100px; color: #006494;"></i>
+                    <span class="proname">Find Flatmates</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema">
+                <div class="option">
+                  <a href="#companies">
+                    <i class="fa fa-briefcase" style="font-size: 80px; padding-top: 20px; color: #006494;"></i>
+                    <span class="proname">Companies</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema">
+                <div class="option">
+                  <a href="#departments">
+                    <i class="fa fa-graduation-cap" style="font-size: 90px; padding-top: 10px; color: #006494;"></i>
+                    <span class="proname">Departments</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema bor_top">
+                <div class="option">
+                  <a href="#days">
+                    <i class="fa fa-hourglass-half" style="font-size: 80px; padding: 10px;color: #006494;"></i>
+                    <span class="proname">Days</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema bor_top">
+                <div class="option">
+                  <a href="#location">
+                    <i class="fa fa-globe" style="font-size: 90px; padding: 5px; color: #006494;"></i>
+                    <span class="proname">Locations</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema bor_top">
+                <div class="option">
+                  <a href="#package">
+                    <i class="fa fa-inr" style="font-size: 80px; padding: 10px; color: #006494;"></i>
+                    <span class="proname">Packages</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema bor_top">
+                <div class="option">
+                  <a href="#sector">
+                    <i class="fa fa-tag" style="font-size: 80px; padding: 10px; color: #006494;"></i>
+                    <span class="proname">Sectors</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+      <!--  </div>
+      </div> -->
+      <div id="statistics">
+        <div class="col-md-12 col-xs-12 major_section"><span>Placement Statistics</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="catdescr2 col-md-12">
+            <ul>
+              <li>International offers are converted to INR <span class="catdescr2_b">(1USD = 70INR, 1JPY = 0.64INR)</span></li>
+              <li>CTC consists of only 1<sup>st</sup> year component and ESOPs <span class="catdescr2_b">(Base + Joining Bonus + Variable Pay + 1<sup>st</sup> year Retention Bonus + ESOPs)</span></li>
+            </ul>
+          </div>
+
+          <div class="section_row">
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                   <span class="proname_val">1001</span><span class="proname_str"> Offers</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                   <span class="proname_val">982</span><span class="proname_str"> Placed</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val">189</span><span class="proname_str"> Companies</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                   <span class="proname_val">398</span><span class="proname_str"> Profiles</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                   <span class="proname_val">16<sup class="superscript">L</sup></span><span class="proname_str"> Avg CTC</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val">13<sup class="superscript">L</sup></span><span class="proname_str"> Avg Base</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val side_val_d">43<sup class="superscript">L</sup></span><span class="proname_str"> <span class="top_str_d"> Domestic</span><span class="bottom_str_d">Max CTC</span></span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val side_val_d">30<sup class="superscript">L</sup></span><span class="proname_str"> <span class="top_str_d">Domestic</span><span class="bottom_str_d">Base</span></span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val side_val_a">104<sup class="superscript">L</sup></span><span class="proname_str"> <span class="top_str_a"> Abroad</span><span class="bottom_str_a">CTC</span></span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val side_val_a">84<sup class="superscript">L</sup></span><span class="proname_str"> <span class="top_str_a"> Abroad</span><span class="bottom_str_a"> Max Base</span></span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val">10<sup class="superscript">L</sup></span><span class="proname_str"> Mode CTC</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                   <span class="proname_val">9<sup class="superscript">L</sup></span><span class="proname_str"> Mode Base</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val">46</span><span class="proname_str"> Abroad Offers</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val">11</span><span class="proname_str"> Days</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val">67</span><span class="proname_str"> MNCs</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                   <span class="proname_val">16</span><span class="proname_str"> Startups</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                 <span class="proname_val">17</span><span class="proname_str"> Locations</span>
+               </div>
+             </div>
+
+             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
+               <div class="card">
+                   <span class="proname_val">8</span><span class="proname_str"> International</span>
+               </div>
+             </div>
+           </div>
+
+
+          </div>
+
+          <div style="opacity: 0;">dummy</div>
+          <div class="col-md-12 col-xs-12">
+            <div class="col-md-12 col-xs-12 " style="margin-bottom: 5px; text-align: center;"><span class="charts_head browse">Segregation</span></div>
+            <div class="col-md-6 col-sm-12 col-xs-12 charts_ch">
+              <div id="piechart_degree" class="charts"></div>
+              <div class="charts_title">segregation on courses</div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 charts_ch">
+              <div id="piechart_sector" class="charts"></div>
+              <div class="charts_title">segregation on sector</div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 charts_ch">
+              <div id="piechart_package" class="charts"></div>
+              <div class="charts_title">segregation on package(CTC)</div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 charts_ch">
+              <div id="piechart_package_base" class="charts"></div>
+              <div class="charts_title">segregation on package(Base)</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="piechart_location" class="charts"></div>
+              <div class="charts_title">segregation on location</div>
+            </div>
+
+            <div class="col-md-12 col-xs-12 " style="margin-top: 70px; text-align: center;"><span class="charts_head browse">Packages</span></div>
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="chart_dep" class="charts_col" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">Department wise avg packages</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="chart_dep_max" class="charts_col" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">Department wise Max packages</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="dep_stacked_ctc" class="charts_col" style="font-family: 'Roboto',sans-serif; height: 350px;"></div>
+              <div class="charts_title">Department wise CTC packages segregation</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="dep_stacked_base" class="charts_col" style="font-family: 'Roboto',sans-serif; height: 350px;"></div>
+              <div class="charts_title">Department wise base packages segregation</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="chart_day" class="charts_col" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">Day wise avg packages</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="chart_sec" class="charts_bar" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">Sector wise avg packages</div>
+            </div>
+
+            <div class="col-md-12 col-xs-12 " style="margin-top: 70px; text-align: center; padding-left: 40px;"><span class="charts_head browse">Offers</span></div>
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="chart_offers_day" class="charts_col" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">Day wise offers</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="chart_offers_top" class="charts_bar" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">Top Recruiters by number of offers</div>
+            </div>
+
+            <div class="col-md-12 col-xs-12 " style="margin-top: 70px; text-align: center; padding-left: 40px;"><span class="charts_head browse">Distributions</span></div>
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="hist_base" class="charts_bar" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">Base Packages Distributions</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="hist_ctc" class="charts_bar" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">CTC Packages Distributions</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container mainbody">
+      <div id="flatmates">
+        <div class="col-md-12 col-xs-12 major_section"><span>Find Flatmates</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_location">Select a location </span><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu scrollable-menu " role="menu" style="max-width:170px;">
+              <li><a onclick="select_location('Ahmedabad')">Ahmedabad</a></li>
+              <li><a onclick="select_location('Bangalore')">Bangalore</a></li>
+              <li><a onclick="select_location('Chennai')">Chennai</a></li>
+              <li><a onclick="select_location('Delhi')">Delhi</a></li>
+              <li><a onclick="select_location('Gurgaon')">Gurgaon</a></li>
+              <li><a onclick="select_location('Hosur')">Hosur</a></li>
+              <li><a onclick="select_location('Hsinchu City')">Hsinchu City</a></li>
+              <li><a onclick="select_location('Hyderabad')">Hyderabad</a></li>
+              <li><a onclick="select_location('Jamshedpur')">Jamshedpur</a></li>
+              <li><a onclick="select_location('Kolkata')">Kolkata</a></li>
+              <li><a onclick="select_location('Mumbai')">Mumbai</a></li>
+              <li><a onclick="select_location('Nagoya City')">Nagoya City</a></li>
+              <li><a onclick="select_location('Navi Mumbai')">Navi Mumbai</a></li>
+              <li><a onclick="select_location('New Delhi')">New Delhi</a></li>
+              <li><a onclick="select_location('Noida')">Noida</a></li>
+              <li><a onclick="select_location('Pune')">Pune</a></li>
+              <li><a onclick="select_location('Tokyo')">Tokyo</a></li>
+            </ul>
+        </div>
+
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="stuValue_location" class="location"><span style="color: #006494; opacity: 0.4; position: relative; top: 80px; font-size: 1.8em;">Please choose a location...</span></div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainbody">
+      <div id="companies">
+        <div class="col-md-12 col-xs-12 major_section"><span>Companies</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="catdescr1 col-md-12">
+            <ul>
+              <li>All the companies and their profiles that has visited KGP for its phase-I placements, 2019</li>
+            </ul>
+          </div>
+
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_company">Select a company </span><span class="caret"></span>
+            </button>
+            <ul id="list_company" class="dropdown-menu scrollable-menu " role="menu" style="min-width:300px; min-height: 500px;">
+            </ul>
+        </div>
+
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="Value_company" class="company"><span style="color: #006494; opacity: 0.4; position: relative; top: 80px; font-size: 1.8em;">Please choose a company...</span></div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainbody">
+      <div id="departments">
+        <div class="col-md-12 col-xs-12 major_section"><span>Departments</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="catdescr1 col-md-12">
+            <ul>
+              <li>Companies and profiles opened for the corresponding departments listed in the ERP (which does not include walkins)</li>
+            </ul>
+          </div>
+
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_dep">Select a department </span><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu scrollable-menu " role="menu" style="min-width:400px; min-height: 500px;">
+              <li><a onclick="select_dep('AE')">AE - AEROSPACE ENGINEERING</a></li>
+              <li><a onclick="select_dep('AG')">AG - AGRICULTURAL AND FOOD ENGINEERING</a></li>
+              <li><a onclick="select_dep('AR')">AR - ARCHITECTURE AND REGIONAL PLANNING</a></li>
+              <li><a onclick="select_dep('BT')">BT - BIOTECHNOLOGY</a></li>
+              <li><a onclick="select_dep('CH')">CH - CHEMICAL ENGINEERING</a></li>
+              <li><a onclick="select_dep('CY')">CY - CHEMISTRY</a></li>
+              <li><a onclick="select_dep('CE')">CE - CIVIL ENGINEERING</a></li>
+              <li><a onclick="select_dep('CS')">CS - COMPUTER SCIENCE AND ENGINEERING</a></li>
+              <li><a onclick="select_dep('EE')">EE - ELECTRICAL ENGINEERING</a></li>
+              <li><a onclick="select_dep('EC')">EC - ELECTRONICS AND ELECTRICAL COMMUNICATION ENGG.</a></li>
+              <li><a onclick="select_dep('GG')">GG - GEOLOGY AND GEOPHYSICS</a></li>
+              <li><a onclick="select_dep('HS')">HS - HUMANITIES AND SOCIAL SCIENCES</a></li>
+              <li><a onclick="select_dep('IM')">IM - INDUSTRIAL AND SYSTEMS ENGINEERING</a></li>
+              <li><a onclick="select_dep('MA')">MA - MATHEMATICS</a></li>
+              <li><a onclick="select_dep('ME')">ME - MECHANICAL ENGINEERING</a></li>
+              <li><a onclick="select_dep('MT')">MT - METALLURGICAL AND MATERIALS ENGINEERING</a></li>
+              <li><a onclick="select_dep('MI')">MI - MINING ENGINEERING</a></li>
+              <li><a onclick="select_dep('NA')">NA - OCEAN ENGG AND NAVAL ARCHITECTURE</a></li>
+              <li><a onclick="select_dep('PH')">PH - PHYSICS</a></li>
+              <li><a onclick="select_dep('IP')">IP - RAJIV GANDHI SCHOOL OF INTELLECTUAL PROPERTY LAW</a></li>
+              <li><a onclick="select_dep('AT')">AT - ADVANCED TECHNOLOGY DEVELOPMENT CENTRE</a></li>
+              <li><a onclick="select_dep('BS')">BS - BIO SCIENCE</a></li>
+              <li><a onclick="select_dep('ET')">ET - CENTRE FOR EDUCATIONAL TECHNOLOGY</a></li>
+              <li><a onclick="select_dep('CL')">CL - CENTRE FOR OCEANS, RIVERS, ATMOSPHERE AND LAND SCIENCES (CORAL)</a></li>
+              <li><a onclick="select_dep('CR')">CR - CRYOGENIC ENGINEERING</a></li>
+              <li><a onclick="select_dep('ES')">ES - ENERGY SCIENCE AND ENGINEERING</a></li>
+              <li><a onclick="select_dep('EV')">EV - ENVIRONMENTAL SCIENCE AND ENGINEERING</a></li>
+              <li><a onclick="select_dep('TE')">TE - G.S SANYAL SCHOOL OF TELECOMMUNICATION</a></li>
+              <li><a onclick="select_dep('MS')">MS - MATERIALS SCIENCE CENTRE</a></li>
+              <li><a onclick="select_dep('NS')">NS - NANO SCIENCE AND TECHNOLOGY</a></li>
+              <li><a onclick="select_dep('EP')">EP - RAJENDRA MISHRA SCHOOL OF ENGG ENTREPRENEURSHIP</a></li>
+              <li><a onclick="select_dep('ID')">ID - RANBIR AND CHITRA GUPTA SCHOOL OF INFRASTRUCTURE DESIGN AND MNGT.</a></li>
+              <li><a onclick="select_dep('RT')">RT - RUBBER TECHNOLOGY</a></li>
+              <li><a onclick="select_dep('MM')">MM - SCHOOL OF MEDICAL SCIENCE AND TECHNOLOGY</a></li>
+              <li><a onclick="select_dep('WM')">WM - SCHOOL OF WATER RESOURCES</a></li>
+              <li><a onclick="select_dep('RE')">RE - SUBIR CHOWDHURY SCHOOL OF QUALITY AND RELIABILITY</a></li>
+            </ul>
+        </div>
+
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="department_company" class="company"><span style="color: #006494; opacity: 0.4; position: relative; top: 80px; font-size: 1.8em;">Please choose a department...</span></div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainbody">
+      <div id="days">
+        <div class="col-md-12 col-xs-12 major_section"><span>Days</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_day">Select a day </span><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu scrollable-menu " role="menu" style="min-width:170px;">
+              <li><a onclick="select_day('1')">Day 1</a></li>
+              <li><a onclick="select_day('2')">Day 2</a></li>
+              <li><a onclick="select_day('3')">Day 3</a></li>
+              <li><a onclick="select_day('4')">Day 4</a></li>
+              <li><a onclick="select_day('5')">Day 5</a></li>
+              <li><a onclick="select_day('6')">Day 6</a></li>
+              <li><a onclick="select_day('7')">Day 7</a></li>
+              <li><a onclick="select_day('8')">Day 8</a></li>
+              <li><a onclick="select_day('9')">Day 9</a></li>
+              <li><a onclick="select_day('10')">Day 10</a></li>
+              <li><a onclick="select_day('11')">Day 11</a></li>
+            </ul>
+        </div>
+
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="day_company" class="company"><span style="color: #006494; opacity: 0.4; position: relative; top: 80px; font-size: 1.8em;">Please choose a day...</span></div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainbody">
+      <div id="location">
+        <div class="col-md-12 col-xs-12 major_section"><span>Locations</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_loc">Select a location </span><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu scrollable-menu " role="menu" style="min-width:170px;">
+              <li><a onclick="select_loc('Ahmedabad')">Ahmedabad</a></li>
+              <li><a onclick="select_loc('Bangalore')">Bangalore</a></li>
+              <li><a onclick="select_loc('Chennai')">Chennai</a></li>
+              <li><a onclick="select_loc('Delhi')">Delhi</a></li>
+              <li><a onclick="select_loc('Gurgaon')">Gurgaon</a></li>
+              <li><a onclick="select_loc('Hosur')">Hosur</a></li>
+              <li><a onclick="select_loc('Hsinchu City')">Hsinchu City</a></li>
+              <li><a onclick="select_loc('Hyderabad')">Hyderabad</a></li>
+              <li><a onclick="select_loc('Jamshedpur')">Jamshedpur</a></li>
+              <li><a onclick="select_loc('Kolkata')">Kolkata</a></li>
+              <li><a onclick="select_loc('Mumbai')">Mumbai</a></li>
+              <li><a onclick="select_loc('Nagoya City')">Nagoya City</a></li>
+              <li><a onclick="select_loc('Navi Mumbai')">Navi Mumbai</a></li>
+              <li><a onclick="select_loc('New Delhi')">New Delhi</a></li>
+              <li><a onclick="select_loc('Noida')">Noida</a></li>
+              <li><a onclick="select_loc('Pune')">Pune</a></li>
+              <li><a onclick="select_loc('Tokyo')">Tokyo</a></li>
+            </ul>
+        </div>
+
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="loc_company" class="company"><span style="color: #006494; opacity: 0.4; position: relative; top: 80px; font-size: 1.8em;">Please choose a location...</span></div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainbody">
+      <div id="package">
+        <div class="col-md-12 col-xs-12 major_section"><span>Packages <span style="font-size: 0.9em; color: #235789;">(CTC)</span></span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="catdescr1 col-md-12">
+            <ul>
+              <li>Package segregation is done on CTC of 1<sup>st</sup> year + ESOPs (Base + Joining Bonus + Variable Pay + 1<sup>st</sup> year Retention Bonus + ESOPs)</li>
+            </ul>
+          </div>
+
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_pay">Select a package </span><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu scrollable-menu " role="menu" style="min-width:170px;">
+              <li><a onclick="select_pay('1')">> 25 Lakhs</a></li>
+              <li><a onclick="select_pay('2')">20 to 25 Lakhs</a></li>
+              <li><a onclick="select_pay('3')">15 to 20 Lakhs</a></li>
+              <li><a onclick="select_pay('4')">12 to 15 Lakhs</a></li>
+              <li><a onclick="select_pay('5')">10 to 12 Lakhs</a></li>
+              <li><a onclick="select_pay('6')">8 to 10 Lakhs</a></li>
+              <li><a onclick="select_pay('7')">5 to 8 Lakhs</a></li>
+              <li><a onclick="select_pay('8')">< 5 Lakhs</a></li>
+            </ul>
+        </div>
+
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="pay_company" class="company"><span style="color: #006494; opacity: 0.4; position: relative; top: 80px; font-size: 1.8em;">Please choose a package...</span></div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainbody">
+      <div id="sector">
+        <div class="col-md-12 col-xs-12 major_section"><span>Sectors</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="catdescr1 col-md-12">
+            <ul>
+              <li>Sector wise segregation is based on company's sector of working, but not on the profiles for which its hiring</li>
+            </ul>
+          </div>
+
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_sec">Select a sector </span><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu scrollable-menu " role="menu" style="min-width:170px;">
+              <li><a onclick="select_sec('Consulting')">Consulting</a></li>
+              <li><a onclick="select_sec('Investment Banking')">Investment Banking</a></li>
+              <li><a onclick="select_sec('Finance')">Finance</a></li>
+              <li><a onclick="select_sec('Teaching/Education')">Teaching/Education</a></li>
+              <li><a onclick="select_sec('Automobile')">Automobile</a></li>
+              <li><a onclick="select_sec('Analytics')">Analytics</a></li>
+              <li><a onclick="select_sec('Health Care')">Health Care</a></li>
+              <li><a onclick="select_sec('Construction')">Construction</a></li>
+              <li><a onclick="select_sec('Mining/Petrolium')">Mining/Petrolium</a></li>
+              <li><a onclick="select_sec('IT/Software')">IT/Software</a></li>
+              <li><a onclick="select_sec('Others')">Others</a></li>
+              <li><a onclick="select_sec('Core Engineering')">Core Engineering</a></li>
+              <li><a onclick="select_sec('Professional Services')">Professional Services</a></li>
+              <li><a onclick="select_sec('Manufacturing')">Manufacturing</a></li>
+              <li><a onclick="select_sec('Ecommerce')">Ecommerce</a></li>
+              <li><a onclick="select_sec('Management')">Management</a></li>
+              <li><a onclick="select_sec('Telecommunication')">Telecommunication</a></li>
+            </ul>
+        </div>
+
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="sec_company" class="company"><span style="color: #006494; opacity: 0.4; position: relative; top: 80px; font-size: 1.8em;">Please choose a sector...</span></div>
+          </div>
+        </div>
+
+      </div> -->
+      </div>
+    </div>
+
+    <!--<div class="container mainbody" style="text-align: center; margin-top: 100px;">
+      <div class="col-md-12 col-xs-12 minor_section">
+        <div style="font-size: 0.9em;"><i>want to add more statistics, collaborator on git &nbsp;</i><span class="btn_git"><a class="github-button" href="https://github.com/sidaartha/PlacementAnalyzer/fork" data-icon="octicon-repo-forked" aria-label="Fork sidaartha/PlacementAnalyzer on GitHub">Fork</a></span></div>
+        <div style="font-size: 0.9em;"><i>want to report an issue &nbsp;</i><span class="btn_git"><a class="github-button" href="https://github.com/sidaartha/PlacementAnalyzer/issues" data-icon="octicon-issue-opened" aria-label="Issue sidaartha/PlacementAnalyzer on GitHub">Issue</a></span></div>
+        <div style="font-size: 0.9em;"><i>show some love &nbsp;</i><span class="btn_git"><a class="github-button" href="https://github.com/sidaartha/PlacementAnalyzer" data-icon="octicon-star" aria-label="Star sidaartha/PlacementAnalyzer on GitHub">Star</a></span></div>
+      </div>
+    </div> -->
+
+    <div class="footer navbar navbar-default row" style="margin-bottom:0px">
+      <!--<div class="footer-wrapper">
+        <span>Handcrafted with <i class="fa fa-heart heart" aria-hidden="true"></i> by Sidaartha.</span> -->
+        <div class="footer-wrapper">
+        <!--<span>   Copyright & copy; 2020-21  EmployeeHunt |  Developed by Group-7 </span> -->
+        </div>
+        <!--<div class="social-icons">
+          <a href="https://github.com/sidaartha" target="_blank"><i class="fa fa-github zoom"></i></a>
+          <a href="https://www.linkedin.com/in/sidaartha/" target="_blank"><i class="fa fa-linkedin zoom"></i></a>
+          <a href="https://www.facebook.com/Sidaartha.Reddy" target="_blank"><i class="fa fa-facebook zoom"></i></a>
+        </div> -->
+      </div>
+    </div>
+
+  </body>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/js/data.js"></script>
+  <script type="text/javascript" src="assets/js/graphs.js"></script>
+</html>
