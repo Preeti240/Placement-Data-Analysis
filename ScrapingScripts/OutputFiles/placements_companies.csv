@@ -1,0 +1,214 @@
+com_id,company,company_fullname,day,jnf_id,jnf_str
+512,AIRBUS,AIRBUS Group India Private Limited,Day-1,,1_2_3_4_5_6_7_8
+571,ALPHAGREP,AlphaGrep Securities,Day-1,1,1
+562,AMERICAN EXPRESS,AMERICAN EXPRESS,Day-1,1,1
+202,APPDYNAMICS,AppDynamics India Pvt Ltd,Day-1,4,4
+549,APPLE,Apple India Private Limited,Day-1,1,1
+323,AUCTUS ADVISORS,Auctus Advisors,Day-1,1,1
+536,BLACKROCK,Blackrock,Day-1,1,1
+97,CAPITAL ONE,Capital One Services (India) Private Limited,Day-1,2,2
+192,COHESITY,Cohesity,Day-1,,2_3
+156,EXL SERVICE,EXL Service,Day-1,2,2
+118,FLIPKART (SDE),Flipkart,Day-1,2,2
+140,GOLDMAN SACHS,Goldman Sachs,Day-1,2,2
+201,GOOGLE (HW),Google,Day-1,3,3
+201,GOOGLE (SW),Google,Day-1,2,2
+285,HALMA,Halma plc (rep Halma India),Day-1,1,1
+64,IBM,IBM Labs,Day-1,,1_2_3
+106,ITC,ITC Limited,Day-1,3,3
+392,JLR (MECH),Jaguar Land Rover India Limited,Day-1,2,2
+211,JPMC GRC,JPMorgan Chase & Co.,Day-1,4,4
+211,JPMC QR,JPMorgan Chase & Co.,Day-1,3,3
+69,MICROSOFT,Microsoft India Pvt. Ltd.,Day-1,2,2
+69,MICROSOFT (DS),Microsoft India Pvt. Ltd.,Day-1,4,4
+422,NESTLE,Nestle India Ltd.,Day-1,,1_2
+45,NOMURA (QUANT),Nomura Structured Finance Services India Pvt. Ltd.,Day-1,3,3
+45,NOMURA (RISK),Nomura Structured Finance Services India Pvt. Ltd.,Day-1,4,4
+45,NOMURA (STRATEGY),Nomura Structured Finance Services India Pvt. Ltd.,Day-1,5,5
+673,PAYPAL,PayPal,Day-1,,1_2
+216,PROCTER & GAMBLE,Procter & Gamble,Day-1,2,2
+165,QUADEYE,Quadeye,Day-1,,5_6
+162,QUALCOMM,Qualcomm India Pvt Ltd,Day-1,,3_4_5_6_7_8_9_10_11_12_13_14
+391,SONY JAPAN,Sony Japan,Day-1,1,1
+581,TSMC,Taiwan Semiconductor Manufacturing Company,Day-1,,1_2_3_4_5_6_7_8_9_10_11_12
+17,UBER,Uber India Systems,Day-1,4,4
+443,VEDANTA OIL AND GAS (CAIRN),VEDANTA OIL AND GAS,Day-1,1,1
+42,AB INBEV,AB InBev,Day-2,2,2
+375,ACCENTURE JAPAN,Accenture Japan Ltd.,Day-2,1,1
+169,ACCENTURE SOLUTIONS,ACCENTURE SOLUTIONS PVT LTD,Day-2,2,2
+520,ADOBE,Adobe,Day-2,1,1
+18,AMAZON (SDE),Amazon India,Day-2,1,1
+154,BAJAJ AUTO,Bajaj Auto Ltd,Day-2,,1_3
+455,BARCLAYS,Barclays Global Service Center,Day-2,1,1
+321,CITI,Citibank,Day-2,2,2
+148,DR REDDY,Dr.Reddy s laboratories ltd,Day-2,2,2
+399,ESSEX,Essex Lake Group,Day-2,1,1
+156,EXL SERVICE,EXL Service,Day-2,3,3
+118,FLIPKART,Flipkart,Day-2,3,3
+449,FRACTAL,Fractal Analytics Pvt. Ltd.,Day-2,1,1
+111,HONEYWELL,Honeywell,Day-2,3,3
+111,HONEYWELL MECH,Honeywell,Day-2,6,6
+690,J&J,Johnson & Johnson,Day-2,,1_2
+392,JLR,Jaguar Land Rover India Limited,Day-2,,1_2_3
+496,JPMC,JPMorgan Chase & Co.,Day-2,1,1
+474,LINE CORP,LINE Corp,Day-2,1,1
+546,MARVELL,Marvell Semiconductor,Day-2,,1_2_3_4
+257,MASTERCARD,Mastercard,Day-2,6,6
+176,MATHWORKS,MATHWORKS INDIA PVT LTD,Day-2,3,3
+41,NUTANIX,Nutanix Technologies,Day-2,1,1
+89,NVIDIA,Nvidia,Day-2,,2_3
+274,OLA,ANI Technologies,Day-2,3,3
+125,ONE PLUS,OnePlus,Day-2,1,1
+149,ORACLE,Oracle India Private Limited,Day-2,3,3
+224,RAZORPAY,Razorpay,Day-2,3,3
+70,SALESFORCE,Salesforce,Day-2,2,2
+389,SAP,SAP,Day-2,1,1
+146,SEMICON,Samsung Semiconductor India R&D Center,Day-2,,2_3
+188,SPRINKLR,Sprinklr India Pvt. Ltd.,Day-2,5,5
+188,SPRINKLR PRODUCT,Sprinklr India Pvt. Ltd.,Day-2,4,4
+13,SRI B,"Samsung R&D Institute, Bangalore",Day-2,,2_3_4
+170,TEXAS,Texas Instruments,Day-2,,5_6
+214,TIGER,Tiger Analytics,Day-2,1,1
+239,TREXQUANT,Trexquant (India) Business Consulting LLP,Day-2,2,2
+150,VISA,Visa,Day-2,2,2
+243,WALMART,Walmart Labs,Day-2,1,1
+68,WELLS FARGO,Wells Fargo,Day-2,1,1
+180,AXIS BANK(BIU),Axis Bank,Day-3,2,2
+180,AXIS BANK(DIGITAL LENDING),Axis Bank,Day-3,4,4
+180,AXIS BANK(ITDS),Axis Bank,Day-3,3,3
+542,BAJAJ FINSERV,Bajaj Finance Ltd,Day-3,1,1
+35,BIDGELY,Bidgely Technologies,Day-3,,3_4
+14,CISCO,Cisco Systems,Day-3,,2_3_5
+377,EATON,Eaton Technologies Private Limited,Day-3,1,1
+703,EMBIBE,Embibe.com (Indiavidual Learning),Day-3,2,2
+414,EY,EY India,Day-3,1,1
+585,GE DIGITAL,GE Digital,Day-3,2,2
+100,GE EEDP,GE,Day-3,2,2
+111,HONEYWELL,Honeywell,Day-3,1,1
+465,ICICI,ICICI Bank,Day-3,1,1
+601,LAM,LAM Research,Day-3,1,1
+141,MENTOR,Mentor Graphics - A Siemens Business,Day-3,2,2
+528,MERCEDES,Mercedes-Benz Research and Development India,Day-3,,1_2_3_4_5_6
+167,MORGAN STANLEY,Morgan Stanley,Day-3,2,2
+592,NXP,NXP India pvt. Ltd,Day-3,1,1
+274,OLA,ANI Technologies,Day-3,5,5
+274,OLA(BA),ANI Technologies,Day-3,6,6
+274,OLA(OPS),ANI Technologies,Day-3,5,5
+127,PUBLICIS,Publicis Sapient,Day-3,3,3
+102,SCHLUMBERGER PUNE,Schlumberger,Day-3,1,1
+73,SERVICENOW,Servicenow,Day-3,1,1
+124,SOCIETE GENERALE,Societe Generale,Day-3,1,1
+56,SRI D,SAMSUNG R&D INSTITUTE INDIA-  DELHI,Day-3,2,2
+67,SRI NOIDA,"Samsung R&D Institute India, Noida",Day-3,2,2
+552,STERLITE,STERLITE TECHNOLOGIES LIMITED,Day-3,1,1
+24,SWIGGY,Swiggy,Day-3,3,3
+53,UBS,UBS,Day-3,1,1
+600,ANAND & ANAND,Anand & Anand,Day-4,1,1
+329,APPLIED MATERIALS(APPLICATIONS),Applied Materials,Day-4,1,1
+329,APPLIED MATERIALS(MECH),Applied Materials,Day-4,2,2
+226,ATHER ENERGY,Ather Energy,Day-4,,1_2_5_6
+271,CAPILLARY TECHNOLOGIES,Capillary Technologies,Day-4,1,1
+703,EMBIBE SDE,Embibe.com (Indiavidual Learning),Day-4,1,1
+703,EMBIBE SDET,Embibe.com (Indiavidual Learning),Day-4,3,3
+336,EXPERIAN,Experian,Day-4,2,2
+343,EXXONMOBIL,ExxonMobil,Day-4,,1_2
+620,EY GDS,EY GDS,Day-4,2,2
+723,IDFC,IDFC First Bank,Day-4,1,1
+513,KONICA MINOLTA,Konica Minolta,Day-4,1,1
+461,RELIANCE JIO INFOCOM LIMITED,Reliance Jio Infocom Limited,Day-4,2,2
+417,REMFRY & SAGAR,Remfry & Sagar,Day-4,2,2
+583,SOU JAPAN,SOU Japan,Day-4,1,1
+123,STANDARD CHARTERED,Standard Chartered GBS India Pvt Ltd,Day-4,1,1
+445,SYNOPSYS,SYNOPSYS INDIA (P) LIMITED,Day-4,,1_2_3_4_5_6
+402,TATA STEEL,Tata Steel,Day-4,,2_3_4_5
+212,TCG DIGITAL,TCG Digital Solutions Pvt Ltd,Day-4,3,3
+568,TURTLEMINT,Turtlemint,Day-4,1,1
+158,UDAAN (OPS),Udaan,Day-4,5,5
+158,UDAAN (SDE),Udaan,Day-4,3,3
+558,VEDANTA LIMITED,Vedanta Limited,Day-4,1,1
+529,ZILINGO,Zilingo Funline Private Limited,Day-4,1,1
+306,ZS ASSOCIATES,ZS Associates,Day-4,2,2
+18,AMAZON (OPS),Amazon India,Day-5,5,5
+246,ARTH DESIGN,Arth Design Build India Pvt Ltd,Day-5,3,3
+71,AXTRIA,Axtria India Pvt. Ltd.,Day-5,1,1
+108,AXXELA,Axxela Advisory Services,Day-5,1,1
+338,COLLINS,Collins Aerospace,Day-5,1,1
+674,DASSAULT,Dassault Systemes Solutions Lab Pvt. Ltd.,Day-5,1,1
+78,DELHIVERY,Delhivery,Day-5,2,2
+340,DISHMAN,Dishman Carbogen Amcis Limited,Day-5,1,1
+341,FUTUREFIRST,Futures First Info Services Pvt.Ltd.,Day-5,1,1
+104,GENERAL MILLS,GENERAL MILLS,Day-5,1,1
+296,GENPACT,Genpact,Day-5,1,1
+462,HSBC EDPI,HSBC,Day-5,1,1
+378,INFOWORKS,Infoworks Data Pvt Ltd,Day-5,1,1
+685,JOHNSON  MATTHEY,Johnson Matthey Chemicals India Private Limited,Day-5,1,1
+132,KLA TENCOR,KLA Tencor,Day-5,,4_5_6
+273,LTI,L&T Infotech,Day-5,2,2
+191,QUANTIPHI,Quantiphi Analytics Solutions Pvt. Ltd.,Day-5,1,1
+505,R.BOSCH,Robert Bosch Engineering and Business Solutions Private Limited,Day-5,1,1
+433,RELIANCE INDUSTRIES LIMITED,Reliance Industries Limited,Day-5,1,1
+153,TATA PROJECTS,Tata Projects,Day-5,1,1
+353,XILINX,XILINX INDIA TECHNOLOGY SERVICES PRIVATE LIMITED,Day-5,,1_2
+366,ZS,ZS Associates,Day-5,2,2
+235,ADITYA IMAGING,Aditya Imaging Information Technologies (DBA AIRA MATRIX),Day-6,1,1
+82,AWL,"AWL, Inc.",Day-6,2,2
+442,BEKAERT INDUSTRIES,Bekaert Industries Pvt. Ltd,Day-6,2,2
+22,BRILLIO,Brillio Technologies,Day-6,4,4
+572,FPL,FPL,Day-6,1,1
+500,HCL,HCL Technologies,Day-6,1,1
+506,HSBC TECH,HSBC Technology India,Day-6,1,1
+419,JINDAL STAINLESS LTD,Jindal Stainless Limited,Day-6,1,1
+269,LOADSHARE,LoadShare Networks,Day-6,1,1
+72,PWC,PwC India,Day-6,3,3
+726,ROLLS ROYCE,Rolls-Royce Bengaluru,Day-6,1,1
+523,SCHNEIDER ELECTRIC,Schneider Electric,Day-6,3,3
+66,SIGMOID,Sigmoid,Day-6,1,1
+607,TVS CREDIT,TVS Credit Services Limited,Day-6,1,1
+480,TVS MOTORS,TVS Motor,Day-6,,1_2_3
+498,ZESTMONEY,ZestMoney,Day-6,1,1
+498,ZESTMONEY (APM),ZestMoney,Day-6,4,4
+31,ADROSONIC,ADROSONIC IT Consultancy Services Pvt Ltd,Day-7,1,1
+492,ALTAIR,Altair Engineering,Day-7,1,1
+75,CAPGEMINI,Capgemini Technology Services India ltd,Day-7,1,1
+497,CBS TECHNO,CBS Techno Co Ltd,Day-7,1,1
+589,VCONSTRUCT,vConstruct Pune,Day-7,1,1
+290,WIPRO,Wipro,Day-7,1,1
+105,ZINIER,Zinier,Day-7,1,1
+345,ARC,ARC DOCUMENT SOLUTIONS INDIA PVT. LTD.,Day-8,1,1
+648,BRIDGEI2I,BRIDGEi2i Analytics Solutions,Day-8,1,1
+644,DUNNHUNBY,dunnhumby India Pvt. Ltd.,Day-8,,1_2
+639,EAGLEVIEW,APMSE Software Services Pvt. Ltd. (EagleView),Day-8,1,1
+631,INDIAN PAC,Indian PAC Consulting Pvt Ltd,Day-8,1,1
+493,L&T,L&T Construction,Day-8,,1_2_3
+77,MERILYTICS,Merilytics,Day-8,1,1
+318,SRI CHAITANYA,SRI CHAITANYA EDUCATIONAL INSTITUTIONS,Day-8,1,1
+473,UNIWORKS,Uniworks Designs Pvt. Ltd,Day-8,3,3
+299,BEEHYV,BeeHyv Software Solutions Pvt Ltd,Day-9,2,2
+85,BYJU'S,BYJU'S - The Learning App,Day-9,1,1
+155,CAPITAL DYNAMICS,Capital Dynamics group,Day-9,1,1
+215,DELTA ELECTRONICS,Delta Electronics India Private Limited,Day-9,,1_2
+194,ENQUERO GLOBAL,Enquero Global,Day-9,1,1
+242,GLOBAL ANALYTICS,Global Analytics India Pvt Ltd,Day-9,1,1
+663,JDA SOFTWARE,JDA Software,Day-9,1,1
+493,L&T CONSTRUCTIONS,L&T Construction,Day-9,3,3
+539,Log9,Log 9 Materials Scientific Pvt. Ltd.,Day-9,1,1
+525,MAHINDRA & MAHINDRA,Mahindra & Mahindra Ltd.,Day-9,1,1
+241,UNITED LEX,UnitedLex Corporation,Day-9,1,1
+393,VEDANTU,Vedantu Innovations Pvt Ltd,Day-9,1,1
+99,VEHERE,Vehere Interactive,Day-9,2,2
+567,VEM TECHNOLOGIES,VEM TECHNOLOGIES PVT LTD,Day-9,,1_2_3_4_5_6
+39,AIR LIQUIDE,Air Liquide Global E&C Solutions,Day-10,,2_3_4
+603,CHADHA AND CHADHA,Chadha & Chadha,Day-10,1,1
+404,COLLEGEDOORS,CollegeDoors (Seshat Technologies Pvt. Ltd.),Day-10,1,1
+301,CUBASTION CONSULTING,Cubastion Consulting Pvt Ltd,Day-10,1,1
+371,GREEN POINT,Green Point Technology Services (India) Pvt Ltd - [Tomorrow's Genius],Day-10,1,1
+183,INSTITUTE OF ENGINEERING & MANAGEMENT,Institute of Engineering & Management,Day-10,2,2
+163,PERSISTENT,Persistent Systems Limited,Day-10,1,1
+110,TCS,Tata Consultancy Services Ltd.,Day-10,1,1
+407,TOTAL ENVIRONMENT,Total Environment building Systems Pvt. Ltd.,Day-10,,1_2_3
+567,VEM TECHNOLOGIES,VEM TECHNOLOGIES PVT LTD,Day-10,,1_2_3_4_5_6
+679,VIDYAMANDIR CLASSES,Vidyamandir Classes,Day-10,1,1
+412,ZEMOSO,ZeMoSO Technologies Pvt Ltd,Day-10,1,1
+531,BALAJEE EDUCATION PVT LTD,Balajee Education Pvt Ltd,Day-11,1,1
+704,INDIAN REGISTER OF SHIPPING,INDIAN REGISTRAR OF SHIPPING,Day-11,1,1
+557,PATHFINDER GROUP OF INSTITUTIONS,Pathfinder Educational Centre,Day-11,1,1
